@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "bookfairs.mzk.cz",
-    "currentPage": "index.html",
+    "currentPage": "media.html",
     "theme": {
       "name": "directm4",
       "title": "DirectM4",
@@ -6076,86 +6076,6 @@
           "_anchor": "extHeader4-6h",
           "_isUserblock": true,
           "_cid": "smwqxdROa5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            }
-          },
-          "_name": "content1",
-          "_sourceTheme": "directm4",
-          "_customHTML": "<section class=\"content1 directm4_content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#f6f7f8\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"title col-12 col-md-{{textWidth}}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Press Releases\n</b></h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\"></h4>\n\t\t\t\t<div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n\t\t\t\t\t<a class=\"btn btn-primary-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "smxlLRF8eK",
-          "_anchor": "content1-7j",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "mobirise4-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
-              "color": "#767676"
-            },
-            ".counter-container": {
-              "ul": {
-                "margin-bottom": "0",
-                "padding-left": ".6rem",
-                "li": {
-                  "margin-bottom": "1rem",
-                  "& when (@stylizedCounters)": {
-                    "list-style": "none",
-                    "position": "relative",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-1.5rem",
-                      "content": "''",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "20px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "10px",
-                      "height": "10px",
-                      "border-radius": "50%",
-                      "& when (@gradientCounter)": {
-                        "background": "linear-gradient(135deg, @counterColor, @counterColor2)"
-                      },
-                      "& when (@countersType = 'square')": {
-                        "border-radius": "0"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "_name": "extContent4",
-          "_sourceTheme": "directm4",
-          "_customHTML": "<section class=\"mbr-section extСontent\" group=\"Additional Blocks\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle</option>\n            <option value=\"square\" selected>Square</option>\n        </select>\n        <input type=\"color\" title=\"Counter Bg Color\" name=\"counterColor\" value=\"#188ef4\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Gradient Counter Bg\" name=\"gradientCounter\" condition=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Bg Color2\" name=\"counterColor2\" value=\"#5eeebb\" condition=\"stylizedCounters&&gradientCounter&&countersType != 'circle'\">   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f6f7f8\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-md-10 col-lg-8 mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li><b>Press Releases\n</b><b style=\"font-size: 1.2rem;\">&nbsp;n.1 - </b><span style=\"font-size: 1.2rem;\">úryvek tiskové zprávy. Úryvek tiskové zprávy. Úryvek tiskové zprávy.Úryvek tiskové zprávy. Úryvek tiskové zprávy. Úryvek tiskové zprávy. Plné znění - </span><a href=\"assets/files/Tiskov-zprva.pdf\" class=\"text-info\" target=\"_blank\" style=\"font-size: 1.2rem; background-color: rgb(246, 247, 248);\">ve formátu pdf</a><span style=\"font-size: 1.2rem;\">, </span><a href=\"assets/files/Tiskov-zprva.docx\" class=\"text-info\" target=\"_blank\" style=\"font-size: 1.2rem; background-color: rgb(246, 247, 248);\">ve formátu docx</a><span style=\"font-size: 1.2rem;\">.</span></li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "smE32VzwaC",
-          "_anchor": "extContent4-7k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

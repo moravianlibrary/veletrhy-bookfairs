@@ -5497,45 +5497,6 @@ a {
     transform: translateX(-100%);
   }
 }
-.cid-smxlLRF8eK {
-  padding-top: 4rem;
-  padding-bottom: 0rem;
-  background-color: #f6f7f8;
-}
-.cid-smE32VzwaC {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #f6f7f8;
-}
-.cid-smE32VzwaC .mbr-text {
-  color: #767676;
-}
-.cid-smE32VzwaC .counter-container ul {
-  margin-bottom: 0;
-  padding-left: .6rem;
-}
-.cid-smE32VzwaC .counter-container ul li {
-  margin-bottom: 1rem;
-  list-style: none;
-  position: relative;
-}
-.cid-smE32VzwaC .counter-container ul li:before {
-  position: absolute;
-  left: -1.5rem;
-  content: '';
-  display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 20px;
-  transition: all .2s;
-  color: #ffffff;
-  background: #188ef4;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #188ef4, #5eeebb);
-  border-radius: 0;
-}
 .cid-smE4etWED1 {
   padding-top: 4rem;
   padding-bottom: 0rem;
