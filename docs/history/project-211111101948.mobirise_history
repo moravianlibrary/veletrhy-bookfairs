@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "bookfairs.mzk.cz",
-    "currentPage": "index.html",
+    "currentPage": "media.html",
     "theme": {
       "name": "directm4",
       "title": "DirectM4",
@@ -48,7 +48,7 @@
     ],
     "imageResize": true,
     "uniqCompNum": 457,
-    "versionPublish": "5.5.0",
+    "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
     "robotsSwitcher": false,
