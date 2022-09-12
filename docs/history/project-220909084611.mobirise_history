@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "bookfairs.mzk.cz",
-    "currentPage": "frankfurt.html",
+    "currentPage": "media.html",
     "theme": {
       "name": "directm4",
       "title": "DirectM4",
@@ -47,7 +47,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 502,
+    "uniqCompNum": 500,
     "versionPublish": "5.5.0",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -10976,142 +10976,6 @@
           "_anchor": "content5-2p",
           "_isUserblock": true,
           "_cid": "si1Lu9kLmk",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-title": {
-              "color": "#00bdd7"
-            }
-          },
-          "_name": "content1",
-          "_sourceTheme": "directm4",
-          "_customHTML": "<section class=\"content1 directm4_content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax=\"\">\n\t\t\t<input type=\"image\" title=\"Image\" value=\"\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t\t<input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"title col-12 col-md-{{textWidth}}\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>\n\t\t\t\t\tProgram</b></h3>\n\t\t\t\t<h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-4\"></h4>\n\t\t\t\t<div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n\t\t\t\t\t<a class=\"btn btn-primary-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_anchor": "content1-dw",
-          "_isUserblock": true,
-          "_cid": "thcV0kPSY4",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
-              "outline": "none"
-            },
-            ".nav-tabs": {
-              "justify-content": "center",
-              "flex-wrap": "wrap",
-              "border-bottom": "1px solid rgba(0, 0, 0, 0.1)",
-              "margin-bottom": "60px"
-            },
-            ".nav-item": {
-              "@media (max-width: 767px)": {
-                "width": "100%",
-                "margin": "0"
-              },
-              ".nav-link": {
-                "color": "@tabColor",
-                "border-bottom": "4px solid transparent !important",
-                "&.active": {
-                  "color": "@activeTabColor",
-                  "border-bottom": "4px solid @activeTabBorderColor !important"
-                }
-              }
-            },
-            ".nav-tabs .nav-link": {
-              "transition": "all .5s",
-              "border": "none"
-            },
-            ".nav-tabs .nav-item": {
-              "margin-right": "1.5rem"
-            },
-            ".nav-link, .nav-link.active": {
-              "padding": "1rem 0",
-              "background-color": "transparent"
-            },
-            ".tab-content": {
-              ".tab-pane": {
-                ".row": {
-                  "& when (@reverseContent)": {
-                    "flex-direction": "row-reverse"
-                  }
-                }
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#232323"
-            },
-            ".buttons-wrap": {
-              ".link": {
-                "display": "flex"
-              }
-            },
-            ".list": {
-              "list-style": "none",
-              "li": {
-                "position": "relative",
-                "margin-bottom": "15px",
-                "&::before": {
-                  "content": "''",
-                  "display": "block",
-                  "position": "absolute",
-                  "margin-top": "9px",
-                  "left": "-25px",
-                  "border-radius": "10px",
-                  "width": "10px",
-                  "height": "10px",
-                  "background-color": "@listDotColor"
-                }
-              }
-            },
-            "@media (max-width: 768px)": {
-              "*": {
-                "text-align": "center"
-              },
-              ".buttons-wrap": {
-                "justify-content": "center"
-              },
-              "img": {
-                "margin-bottom": "20px"
-              }
-            }
-          },
-          "_name": "tabs1",
-          "_sourceTheme": "directm4",
-          "_customHTML": "<section class=\"tabs1 directm4_tabs1 tabs\" group=\"Tabs\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax, 'mbr-fullscreen': fullScreen}\" plugins=\"mbr-tabs\">\n\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Main Title\" name=\"showMainTitle\">\n\t\t<input type=\"checkbox\" title=\"Main Subtitle\" name=\"showMainSubtitle\">\n\t\t<select title=\"Count\" name=\"bootstrapTabs\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\" selected>2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t\t<option value=\"5\">5</option>\n\t\t\t<option value=\"6\">6</option>\n\t\t</select>\n\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"List\" name=\"showList\" checked>\n\t\t<input type=\"range\" title=\"List Count\" name=\"listCount\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"showList\">\n\t\t<input type=\"color\" title=\"List Dot Color\" name=\"listDotColor\" value=\"#00bdd7\" condition=\"showList\">\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n\t\t<input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n\t\t<header>Tabs Colors</header>\n\t\t<input type=\"color\" title=\"Tab\" name=\"tabColor\" value=\"#00bdd7\">\n\t\t<input type=\"color\" title=\"Active Tab\" name=\"activeTabColor\" value=\"#55595c\">\n\t\t<input type=\"color\" title=\"Active Border\" name=\"activeTabBorderColor\" value=\"#00bdd7\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<h3 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\tFeatures with tabs\n\t\t</h3>\n\t\t<h4 class=\"mbr-section-subtitle mbr-fonts-style align-center\" mbr-theme-style=\"display-5\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\tSubtitle\n\t\t</h4>\n\t\t<div class=\"row mt-4\">\n\t\t\t<div class=\"col-12 col-md-12\">\n\t\t\t\t<ul class=\"nav nav-tabs\" role=\"tablist\">\n\t\t\t\t\t<li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-dx_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n\t\t\t\t\t\t\tFriday 21. 10.&nbsp; &nbsp; &nbsp; &nbsp;</a></li>\n\t\t\t\t\t<li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-dx_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n\t\t\t\t\t\t\tSaturday 22. 10.&nbsp; &nbsp; &nbsp; &nbsp;</a></li>\n\t\t\t\t\t<li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-fonts-style show\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs7-by_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n\t\t\t\t\t\t\tAdd Funds\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-fonts-style show\" role=\"tab\" data-toggle=\"tab\" href=\"#extTabs7-by_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n\t\t\t\t\t\t\tDebit Card\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-1c_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n\t\t\t\t\t\t\tWithdraw\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n\t\t\t\t\t\t<a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs1-1c_tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n\t\t\t\t\t\t\tAdd Funds\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t\t<div class=\"tab-content\">\n\t\t\t\t\t<div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/foto%20mornstajnova-525x492.jpg\" alt=\"Marek Toman - foto David Konečný\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-title, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">21. 10. at 8:15 p.m.<br>Alena Mornštajnová and Listopád/ Es geschah im November</h1>\n\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-subtitle, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\">\n\t\t\t\t\t\t\t\t\tOur advantages\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-black align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".tab-content .tab-pane .mbr-text, .tab-content .tab-pane .mbr-section-btn, .tab-content .tab-pane .list li\">Author Alena Mornštajnová with her German translation of the novel November Fall (German translation: Es geschah im November, published by Wieser Verlag, 2022, translated by Raija Hauck)</p>\n\t\t\t\t\t\t\t\t<ul mbr-list-grow=\"listCount\" class=\"list mbr-fonts-style text-left\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-content .tab-pane .list, .tab-content .tab-pane .list li\" data-multiline mbr-article mbr-list mbr-if=\"showList\">\n\t\t\t\t\t\t\t\t\t<li>Location: Gute Stube, Hotel Lindley Lindenberg (Lindleystrasse 17, 60314 Frankfurt am Main) \n</li><li>Moderator: Martin Krafl</li><li>Translator and actor: Raija Hauck\n</li><li>Language: German</li></ul>\n\t\t\t\t\t\t\t\t<div class=\"buttons-wrap align-left align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Get free Trial</a></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/foto%20mornstajnova-525x492.jpg\" alt=\"Viktorie Hanišová - David Konečný\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-title, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">22. 10. at 5:30 p.m.<div>Alena Mornštajnová and Listopád/ Es geschah im November</div></h1>\n\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-subtitle, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\">\n\t\t\t\t\t\t\t\t\tOur advantages\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-black align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".tab-content .tab-pane .mbr-text, .tab-content .tab-pane .mbr-section-btn, .tab-content .tab-pane .list li\">Author Alena Mornštajnová with her German translation of the novel November Fall (German translation: Es geschah im November, published by Wieser Verlag, 2022, translated by Raija Hauck).</p>\n\t\t\t\t\t\t\t\t<ul mbr-list-grow=\"listCount\" class=\"list mbr-fonts-style text-left\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-content .tab-pane .list\" data-multiline mbr-article mbr-list mbr-if=\"showList\">\n\t\t\t\t\t\t\t\t\t<li>Location: FBM, hall 3.1, on the so-called Literary Island of Independent Publishers</li><li>Moderator: Martin Krafl\n</li><li>Translator and actor: Raija Hauck\n</li><li>Language: German</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<div class=\"buttons-wrap align-left align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Get free Trial</a></div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<img src=\"false\" alt=\"Mobirise\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-title, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">BOOST YOUR RANKING</h1>\n\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-subtitle, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\">\n\t\t\t\t\t\t\t\t\tOur advantages\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-black align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".tab-content .tab-pane .mbr-text, .tab-content .tab-pane .mbr-section-btn, .tab-content .tab-pane .list li\">\n\t\t\t\t\t\t\t\t\tSites made with Mobirise are 100% mobile-friendly according the latest Google Test\n\t\t\t\t\t\t\t\t\tand Google loves those websites (officially)!</p>\n\t\t\t\t\t\t\t\t<ul mbr-list-grow=\"listCount\" class=\"list mbr-fonts-style text-left\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-content .tab-pane .list\" data-multiline mbr-article mbr-list mbr-if=\"showList\">\n\t\t\t\t\t\t\t\t\t<li>Block with media and 'typed' text effect.</li>\n\t\t\t\t\t\t\t\t\t<li>Enter in any string, and watch it type at the speed you have set</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li>Enter in any string, and watch it type at the speed you have set</li></ul>\n\t\t\t\t\t\t\t\t<div class=\"buttons-wrap align-left align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Get free Trial</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<img src=\"false\" alt=\"Mobirise\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-title, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">BOOST YOUR RANKING</h1>\n\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-subtitle, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\">\n\t\t\t\t\t\t\t\t\tOur advantages\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-black align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".tab-content .tab-pane .mbr-text, .tab-content .tab-pane .mbr-section-btn, .tab-content .tab-pane .list li\">\n\t\t\t\t\t\t\t\t\tSites made with Mobirise are 100% mobile-friendly according the latest Google Test\n\t\t\t\t\t\t\t\t\tand Google loves those websites (officially)!</p>\n\t\t\t\t\t\t\t\t<ul mbr-list-grow=\"listCount\" class=\"list mbr-fonts-style text-left\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-content .tab-pane .list\" data-multiline mbr-article mbr-list mbr-if=\"showList\">\n\t\t\t\t\t\t\t\t\t<li>Block with media and 'typed' text effect.</li>\n\t\t\t\t\t\t\t\t\t<li>Enter in any string, and watch it type at the speed you have set</li>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li>Enter in any string, and watch it type at the speed you have set</li></ul>\n\t\t\t\t\t\t\t\t<div class=\"buttons-wrap align-left align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Get free Trial</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<img src=\"false\" alt=\"Mobirise\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-title, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">BOOST YOUR RANKING</h1>\n\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-subtitle, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\">\n\t\t\t\t\t\t\t\t\tOur advantages\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-black align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".tab-content .tab-pane .mbr-text, .tab-content .tab-pane .mbr-section-btn, .tab-content .tab-pane .list li\">\n\t\t\t\t\t\t\t\t\tSites made with Mobirise are 100% mobile-friendly according the latest Google Test\n\t\t\t\t\t\t\t\t\tand Google loves those websites (officially)!</p>\n\t\t\t\t\t\t\t\t<ul mbr-list-grow=\"listCount\" class=\"list mbr-fonts-style text-left\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-content .tab-pane .list\" data-multiline mbr-article mbr-list mbr-if=\"showList\">\n\t\t\t\t\t\t\t\t\t<li>Block with media and 'typed' text effect.</li>\n\t\t\t\t\t\t\t\t\t<li>Enter in any string, and watch it type at the speed you have set</li>\n\t\t\t\t\t\t\t\t\t<li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<div class=\"buttons-wrap align-left align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Get free Trial</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<img src=\"false\" alt=\"Mobirise\">\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-6\">\n\t\t\t\t\t\t\t\t<h1 class=\"mbr-section-title mbr-fonts-style mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-title, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">BOOST YOUR RANKING</h1>\n\t\t\t\t\t\t\t\t<h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3 mbr-black align-left\" data-app-selector=\".tab-content .tab-pane .mbr-section-subtitle, .tab-content .tab-pane .list li\" mbr-theme-style=\"display-7\" mbr-if=\"showSubitle\">\n\t\t\t\t\t\t\t\t\tOur advantages\n\t\t\t\t\t\t\t\t</h2>\n\t\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style mbr-black align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".tab-content .tab-pane .mbr-text, .tab-content .tab-pane .mbr-section-btn, .tab-content .tab-pane .list li\">\n\t\t\t\t\t\t\t\t\tSites made with Mobirise are 100% mobile-friendly according the latest Google Test\n\t\t\t\t\t\t\t\t\tand Google loves those websites (officially)!</p>\n\t\t\t\t\t\t\t\t<ul mbr-list-grow=\"listCount\" class=\"list mbr-fonts-style text-left\" mbr-theme-style=\"display-4\" data-app-selector=\".tab-content .tab-pane .list\" data-multiline mbr-article mbr-list mbr-if=\"showList\">\n\t\t\t\t\t\t\t\t\t<li>Block with media and 'typed' text effect.</li>\n\t\t\t\t\t\t\t\t\t<li>Enter in any string, and watch it type at the speed you have set</li>\n\t\t\t\t\t\t\t\t\t<li>Lorem ipsum dolor sit amet, consectetur adipisic elit.</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<div class=\"buttons-wrap align-left align-self-center\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\">\n\t\t\t\t\t\t\t\t\t\t<a class=\"btn btn-md btn-primary\" href=\"https://mobiri.se/\" data-app-placeholder=\"Type Text\">Get free Trial</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_anchor": "tabs1-dx",
-          "_isUserblock": true,
-          "_cid": "thcV2EhI2p",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
