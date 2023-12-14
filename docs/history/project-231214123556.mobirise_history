@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "bookfairs.mzk.cz",
-    "currentPage": "bologna.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "directm4",
       "title": "DirectM4",
@@ -59,9 +59,8 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishType": "local",
-    "mbrsite": "mbrsite://%7B%22id%22%3A344903%2C%22domain%22%3A%22khtfsom3t0.mobirisesite.com%22%7D",
-    "publishPath": "@PROJECT_PATH@"
+    "publishType": "mbrsite",
+    "mbrsite": "mbrsite://%7B%22id%22%3A344903%2C%22domain%22%3A%22khtfsom3t0.mobirisesite.com%22%7D"
   },
   "pages": {
     "index.html": {
