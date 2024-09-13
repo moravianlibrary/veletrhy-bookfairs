@@ -9236,6 +9236,38 @@ a {
 .cid-thcV0kPSY4 .mbr-section-title {
   color: #00bdd7;
 }
+.cid-uogAmGmGjB {
+  padding-top: 45px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-uogAmGmGjB .card-wrapper {
+  border-radius: 4px;
+}
+.cid-uogAmGmGjB .card-subtitle {
+  color: #0095ff;
+}
+.cid-uogAmGmGjB .mbr-text,
+.cid-uogAmGmGjB .card-subtitle {
+  color: #232323;
+}
+.cid-uogAmGmGjB img {
+  border-radius: 6px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-uogAmGmGjB img {
+    margin-bottom: 2rem;
+  }
+}
+.cid-uogAmGmGjB .card .card-wrapper .text-wrapper .card-subtitle,
+.cid-uogAmGmGjB .card .card-wrapper .text-wrapper .mbr-section-btn {
+  color: #188ef4;
+}
+.cid-uogAmGmGjB .card .card-wrapper .text-wrapper .mbr-text,
+.cid-uogAmGmGjB .card .card-wrapper .text-wrapper .mbr-section-btn {
+  text-align: left;
+}
 .cid-t8Vq4F4LwH {
   padding-top: 3rem;
   padding-bottom: 0rem;
