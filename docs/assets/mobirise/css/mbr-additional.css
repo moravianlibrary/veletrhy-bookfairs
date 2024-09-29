@@ -9268,6 +9268,38 @@ a {
 .cid-uogAmGmGjB .card .card-wrapper .text-wrapper .mbr-section-btn {
   text-align: left;
 }
+.cid-upL2gNC7vV {
+  padding-top: 15px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-upL2gNC7vV .card-wrapper {
+  border-radius: 4px;
+}
+.cid-upL2gNC7vV .card-subtitle {
+  color: #0095ff;
+}
+.cid-upL2gNC7vV .mbr-text,
+.cid-upL2gNC7vV .card-subtitle {
+  color: #232323;
+}
+.cid-upL2gNC7vV img {
+  border-radius: 6px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-upL2gNC7vV img {
+    margin-bottom: 2rem;
+  }
+}
+.cid-upL2gNC7vV .card .card-wrapper .text-wrapper .card-subtitle,
+.cid-upL2gNC7vV .card .card-wrapper .text-wrapper .mbr-section-btn {
+  color: #188ef4;
+}
+.cid-upL2gNC7vV .card .card-wrapper .text-wrapper .mbr-text,
+.cid-upL2gNC7vV .card .card-wrapper .text-wrapper .mbr-section-btn {
+  text-align: left;
+}
 .cid-t8Vq4F4LwH {
   padding-top: 3rem;
   padding-bottom: 0rem;
