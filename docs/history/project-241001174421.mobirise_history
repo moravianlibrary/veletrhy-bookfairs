@@ -47,7 +47,7 @@
       }
     ],
     "imageResize": true,
-    "uniqCompNum": 544,
+    "uniqCompNum": 543,
     "versionPublish": "5.5.0",
     "screenshot": "screenshot.png",
     "publishChangesOnly": true,
@@ -11411,30 +11411,6 @@
           "_anchor": "features4-f2",
           "_isUserblock": true,
           "_cid": "upL2gNC7vV",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor",
-            "blockquote": {
-              "background-color": "fade(@textBg, 20%)",
-              "border-color": "@borderColor",
-              "border-width": "(@borderWidth * 1px)",
-              "color": "@textColor"
-            }
-          },
-          "_name": "content4",
-          "_sourceTheme": "directm4",
-          "_customHTML": "<section class=\"content4 directm4_content4\" group=\"Content\">\n\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n\t\t<input type=\"color\" title=\"Text Bg\" name=\"textBg\" value=\"#e5e5e5\">\n\t\t<input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#00bdd7\">\n\t\t<input type=\"color\" title=\"Text Color\" name=\"textColor\" value=\"#828282\">\n\t\t<input type=\"range\" name=\"borderWidth\" title=\"Border Width\" min=\"1\" max=\"15\" value=\"13\" step=\"1\">\n\t\t<header>Background</header>\n\t\t<input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n\t</mbr-parameters>\n\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 col-md-{{textWidth}}\">\n\t\t\t\t<blockquote mbr-text class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Click <a href=\"assets/files/FBM_2024-program_DE.pdf\" class=\"text-primary\" target=\"_blank\">here</a> for the press release on the programme in German.</b><br><b>Click here for the press release on the programme in English.</b></blockquote>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_anchor": "content4-f3",
-          "_isUserblock": true,
-          "_cid": "uqHnkk3Ueu",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
