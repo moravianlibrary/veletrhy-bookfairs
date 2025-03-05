@@ -4004,6 +4004,38 @@ a {
     border: 1px solid rgba(0, 0, 0, 0.2);
   }
 }
+.cid-uEyUwz3O57 {
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  background-color: #efefef;
+}
+.cid-uEyUsWY0rJ {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-uEyUsWY0rJ h4 {
+  font-weight: 600;
+  color: #e2e2e2;
+}
+.cid-uEyUsWY0rJ .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-uEyUsWY0rJ .article {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+@media (min-width: 768px) {
+  .cid-uEyUsWY0rJ .article-right-border {
+    border-right: 2px dotted #e2e2e2;
+  }
+}
+.cid-uEyUsWY0rJ .mbr-text-right {
+  color: #00bdd7;
+}
+.cid-uEyUsWY0rJ .mbr-text-left {
+  color: #00bdd7;
+}
 .cid-u25pnkGP9d {
   padding-top: 5rem;
   padding-bottom: 0rem;
